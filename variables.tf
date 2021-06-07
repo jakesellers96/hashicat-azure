@@ -26,7 +26,7 @@ variable "subnet_prefix" {
 
 variable "vm_size" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_B1s"
+  default     = "Basic_A0"
 }
 
 variable "image_publisher" {
